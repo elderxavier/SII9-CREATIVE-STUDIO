@@ -1,0 +1,160 @@
+
+body {
+    font-family: arial,verdana,helvetica;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+/* map holder */
+#map-image #map-holder {
+    width: 100%;
+}
+#map-image #map-area {
+	background: url("../../mapa_original.jpg") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+    height: 3512px;
+    margin: 0 auto;
+    position: relative;
+    width: 2484px;
+}
+#map-image #map-area  #points-loader {
+	background: url("../images/loader.gif") no-repeat center center transparent;
+	position: absolute;
+	width: 100%;
+	height:100%;
+}
+#map-image .map-pointer {
+    background: url("../images/map_pointer.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 18px;
+    position: absolute;
+    width: 18px;
+}
+/* pop up edit */
+#map-image #popEditPanel {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 330px;
+}
+#map-image #popEditPanel form {
+	
+}
+#map-image #popEditPanel label {
+    float: left;
+    margin-right: 5px;
+    margin-top: 14px;
+    text-align: right;
+    width: 60px;
+}
+#map-image #popEditPanel input {
+    width: 291px;
+}
+#map-image #popEditPanel .uiStatus {
+    margin-top: 5px;
+    width: 173px;
+}
+
+
+/* UI POP UP */
+.uiPopUp {     
+    border: 10px solid rgba(82, 82, 82, 0.7);
+    left: 50%;
+    margin-left: -225px;
+    margin-top: -125px;
+    position: fixed;
+    top: 50%;
+    width: 430px;
+    z-index: 99991; 
+    
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px; 
+    
+    box-shadow: 0 0 15px #4DCBEA;
+}
+.uiPopContent {
+    background: #FFFFFF;
+    color: #333333;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.uiBoxTitle{
+    background: linear-gradient(#C8EEA2, #73D612) repeat scroll 0 0 padding-box rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #919191;    
+    color: #70706F;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 0.04em;
+    line-height: 31px;
+    padding: 10px 13px;
+    
+    box-shadow: 0 0 2px #636363;
+}
+.uiPopHolder {
+    float: left;
+    padding: 25px 3%;
+    width: 94%;
+}
+.uiPopHolder input, .uiPopContent .form-button {
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    color: #73B3C5;
+    font-size: 14px;
+    padding: 7px 8px; 
+    
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius:  8px;
+}
+.uiBoxBottom {
+    background: #CCCCCC;
+    float: left;
+    text-align: right;
+    padding: 10px 3%;
+    position: relative;
+    width: 94%;
+}
+.uiStatus {
+    float: left;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 7px;
+    text-align: left;
+    width: 100%;
+}
+.uiStatus .success {
+    color: #0F5F91;
+}
+.uiStatus .error {
+    color: #ff0000;
+}
+.uiPopUpOverlay {
+    position: absolute;
+    z-index: 99990;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.5;
+}
+.uiPopLoader {
+    background: url("../images/loader.gif") no-repeat scroll center center rgba(255, 255, 255, 0.5);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+.uiCloseWindow {
+    background: url("../images/close.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    height: 32px;
+    position: absolute;
+    right: -21px;
+    text-indent: -9999px;
+    top: -22px;
+    width: 32px;
+    cursor: pointer;
+    z-index: 10;
+}

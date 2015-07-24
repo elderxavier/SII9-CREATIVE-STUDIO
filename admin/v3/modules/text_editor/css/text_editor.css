@@ -1,0 +1,27 @@
+
+.text-editor {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.text-editor form {
+	width: 100%;
+}
+.text-editor #cke_text-content {
+	background: #B8E988;
+}
+.text-editor .uiStatus {
+    bottom: 30px;
+
+    margin-left: -1px;
+    position: absolute;
+    width: 100%;
+}
+
+/* reset */
+.cke_dialog_body label {
+    float: none;
+}
+.text-editor a:hover {
+	text-decoration: none;
+}

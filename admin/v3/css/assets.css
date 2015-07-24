@@ -1,0 +1,554 @@
+
+.uiButton, .uiButtonConfirm, .uiLinkButton {
+	cursor: pointer;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: auto;
+	padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+	width: auto !important;
+    min-width: 140px;
+	width: 140px;
+}
+.uiButton {
+	background: linear-gradient(rgba(255, 255, 255, 0.8), #C7C7C7) repeat scroll 0 0 padding-box rgba(0, 0, 0, 0);   
+    color: #575757;
+    text-shadow: 1px 1px 2px #FFFFFF;
+	
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    box-shadow: 0 0 1px #999999;
+
+}
+.uiButton:hover, .uiButton.active {	
+    text-decoration: none;
+	box-shadow: 1px 1px 5px #999;
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+}
+
+.uiButtonConfirm {      
+    background: linear-gradient(#ADD4DE, #40879A) repeat scroll 0 0 padding-box rgba(0, 0, 0, 0);
+    color: #464646;
+    text-shadow: 0 0 3px #FFFFFF;
+	
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    box-shadow: 0 0 1px #333;
+	-moz-box-shadow: 0 0 1px #333;
+	-webkit-box-shadow: 0 0 1px #333;
+}
+.uiButtonConfirm:hover, .uiButtonConfirm.active {    
+	text-decoration: none;
+	box-shadow: 1px 1px 5px #00A1C9;
+	-moz-box-shadow: 1px 1px 5px #00A1C9;
+	-webkit-box-shadow: 1px 1px 5px #00A1C9;
+}
+.uiLinkButton {
+	background: none;
+	color: #575757;
+    text-shadow: 1px 1px 2px #FFFFFF;
+    text-decoration: underline;	
+}
+.uiLinkButton:hover {
+	text-decoration: none;    
+}
+.uiAddButton {
+	color: #333333;
+    cursor: pointer;
+    font-family: arial,verdana,helvetica;
+    font-size: 12px;
+    padding: 8px 10px;
+    text-shadow: 0 0 3px #FFFFFF;
+	
+	background: #9bdbed;
+	background: -moz-linear-gradient(top,  #9bdbed 0%, #5d9daf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9bdbed), color-stop(100%,#5d9daf)); 
+	background: -webkit-linear-gradient(top,  #9bdbed 0%,#5d9daf 100%); 
+	background: -o-linear-gradient(top,  #9bdbed 0%,#5d9daf 100%); 
+	background: -ms-linear-gradient(top,  #9bdbed 0%,#5d9daf 100%);
+	background: linear-gradient(to bottom,  #9bdbed 0%,#5d9daf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9bdbed', endColorstr='#5d9daf',GradientType=0 ); 
+	
+	box-shadow: 0 0 1px #333333;
+	-box-shadow: 0 0 1px #333333;
+	box-shadow: 0 0 1px #333333;
+	
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    box-shadow: 0 0 1px #333;
+	
+}
+.uiAddButton:hover {
+	box-shadow: 0 0 8px #4DCBEA;
+	-moz-box-shadow: 0 0 8px #4DCBEA;
+	-webkit-box-shadow: 0 0 8px #4DCBEA;
+	color: #666;
+}
+.uiDelMiniButton {
+    background: url("../images/delete_mini.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    height: 16px;
+    width: 16px;
+}
+.uiGoButton {
+	background: url('../images/go.png') no-repeat center center transparent;
+	height: 38px;
+	width: 38px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.uiCloseWindow {
+	background: url("../images/close.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    height: 32px;
+    position: absolute;
+    right: -21px;
+    text-indent: -9999px;
+    top: -22px;
+    width: 32px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+
+/* UI POP UP */
+.uiPopUp {     
+    border: 10px solid rgba(82, 82, 82, 0.7);
+    left: 50%;
+    margin-top: -125px;
+    position: fixed;
+    top: 50%;
+    
+	
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;	
+	
+	box-shadow: 0 0 15px #4DCBEA;	
+	-moz-box-shadow: 0 0 15px #4DCBEA;
+	-webkit-box-shadow: 0 0 15px #4DCBEA;
+}
+.uiPopUp {
+	margin-left: -450px;
+    width: 900px;	
+}
+.uiPopUp.half {
+	margin-left: -225px;
+    width: 430px;
+}
+.uiPopUp .col1, .uiPopUp .col2 {
+	float: left;
+	width: 48%;
+}
+.uiPopUp .col2 {
+	float: right;
+}
+.uiPopContent {
+    background: url("../images/noise.png") repeat scroll center center #FFFFFF;
+    color: #333333;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.uiBoxTitle{
+    background: url("../images/navigator_bg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #CBCBCB;    
+    color: #ff9900;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 0.04em;
+    line-height: 31px;
+    padding: 10px 13px;
+	
+	box-shadow: 0 0 2px #636363;
+	-moz-box-shadow: 0 0 2px #636363;
+	-webkit-box-shadow: 0 0 2px #636363;
+}
+.uiPopHolder {
+    float: left;
+    padding: 25px 3%;
+	position: relative;
+    width: 94%;
+}
+
+.uiBoxBottom {
+    background: url("../images/noise.png") repeat scroll center center #CCCCCC;
+    float: left;
+	text-align: right;
+    padding: 10px 3%;
+    position: relative;
+    width: 94%;
+}
+.uiStatus {
+    position: relative;	
+	text-align: center;	
+	color: #287596;
+}
+.uiWarning {
+	position: relative;	
+	text-align: center;	
+	color: #287596;
+	margin: 0 1px;
+}
+.uiStatus span, .uiWarning span {
+	background: none repeat scroll 0 0 #E0F1F8;
+    border: 1px solid #61AECF;	
+	padding: 8px 2%;	
+	width: 96%;
+	float: left;
+}
+.uiPopHolder .uiStatus span {
+	margin-top: -20px;
+}
+.uiStatus .success, .uiWarning .success {
+	color: #58A808;
+	background: none repeat scroll 0 0 #D7F4B7;	
+	border: 1px solid #76D718;
+}
+.uiStatus .error, .uiWarning .error {	
+	background: none repeat scroll 0 0 #FFE5E5;
+	color: #C43735;
+    border: 1px solid #DD8685;
+}
+.uiStatus .required, .uiWarning .required {
+
+}
+.uiStatus .loader {
+
+}
+.uiPopUpOverlay {
+	background-color: #FFFFFF;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+	opacity:0.50;
+	-moz-opacity: 0.50;
+	filter: alpha(opacity=50);
+}
+.uiPopLoader {
+    background: url("../images/pop_content_loader.gif") no-repeat scroll center center rgba(255, 255, 255, 0.7);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	z-index: 10;
+}
+
+
+/* pop up text editor */
+
+.uiPopUp.textFullEditor .uiPopHolder, .uiPopUp.textIntroEditor .uiPopHolder {
+    padding: 0;
+    width: 100%;
+}
+.uiPopUp.textFullEditor #openPopTextIntroBtn {
+    position: absolute;
+    right: 12px;
+    top: 32px;
+    z-index: 1;
+}
+.uiPopUp.textIntroEditor .text-editor textarea {
+    border: medium none;    
+    color: #333333;
+    font-size: 13px;
+    height: 204px;
+    line-height: 1.6em;
+    padding: 20px 3%;
+    width: 94%;
+	
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+
+/* pop up add imagem */
+.uiPopUp.addIntroImage .uiStatus span {
+    margin-bottom: 5px;
+}
+.uiPopUp.addIntroImage .thumbheadding {
+    float: left;
+    position: relative;
+}
+.uiPopUp.addIntroImage .thumbheadding img {
+    border: 4px solid #B0B0B0;
+    height: 80px;
+    width: 100px;
+	display: block;
+}
+.uiPopUp.addIntroImage .thumbheadding .uiDelMiniButton {
+    background-color: #CCCCCC;
+    cursor: pointer;
+    padding: 3px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.uiPopUp.addIntroImage .fakefile {
+    float: right;
+    margin-top: 2px;
+    width: 283px;
+}
+.uiPopUp.addIntroImage .fakefile .uiAddButton {
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 2px;
+}
+.uiPopUp.addIntroImage .fakefile input[type="file"] {
+    left: auto;
+    right: 2px;
+    width: 84px;
+}
+.uiPopUp.addIntroImage .fakefile input[type="text"] {
+	float: right;
+}
+
+
+
+/* ui Alert */
+.uiAlert .uiBoxTitle{
+	text-align: center;
+}
+.uiAlert .uiPopHolder {
+    padding: 13px 3%;
+    width: 94%;
+	text-align: center;
+}
+.uiAlert .uiBoxBottom {
+	text-align: center;
+}
+.uiAlert .uiBoxBottom button {
+	margin: 0 15px;
+}
+
+/* UI LIST */
+.uiList {
+	margin-top: 30px;
+}
+.uiList .item {
+	background-color: #EEEEEE;
+    border-color: #E1E1E1;   
+    border-style: solid;
+    border-width: 0 0 1px;    
+    display: block;
+    float: left;
+    padding: 12px 1%;
+    position: relative;
+    width: 98%;	
+	
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;	
+	
+    border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	
+	border-image: none;
+	box-shadow: 0 1px 0 0 #FFFFFF inset;
+}
+.uiList .thumb {
+    display: block;
+    float: left;
+    height: 50px;
+    margin-right: 15px;
+    width: 60px;
+}
+.uiList .item.disabled {
+	background: url("../images/bg_disabled.png") repeat scroll 0 0 transparent;	
+    box-shadow: 0 -1px 0 0 #FFFFFF inset, 0 1px 0 0 #EEECEC inset;
+	-moz-box-shadow: 0 -1px 0 0 #FFFFFF inset, 0 1px 0 0 #EEECEC inset;
+	-webkit-box-shadow: 0 -1px 0 0 #FFFFFF inset, 0 1px 0 0 #EEECEC inset;
+}
+.uiList .item.disabled .thumb {
+	opacity:0.60;
+	-moz-opacity: 0.60;
+	filter: alpha(opacity=60);
+}
+
+/* title */
+.uiList .item .editBtn {
+    background: url("../images/edit_mini.png") no-repeat scroll 0 center rgba(0, 0, 0, 0);
+    height: 20px;
+    left: 5px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+.uiList .item .title-holder {
+	color: #454545;
+    cursor: default;
+    float: left;
+    font-size: 14px;
+    padding-left: 20px;
+    width: 74%;	
+}
+.uiList .item.disabled .title-holder {
+	color: #C7C7C7;
+}
+/* actions */
+.uiList .item .actions {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+.uiList .item .publicarBtn {
+    background: url("../images/switches.png") no-repeat scroll center -34px rgba(0, 0, 0, 0);
+    float: left;
+    height: 31px;
+    margin-top: -15px;
+    position: relative;
+    width: 69px;
+}
+.uiList .item.disabled .publicarBtn{
+	background-position: center -1px;
+}
+.uiList .item .itemPopBtn {    
+    display: block;
+    float: left;
+    height: 31px;
+    margin-top: -16px;
+    position: relative;
+    width: 33px;
+}
+/* more itens */
+.uiList .item .moreItensBtn {    
+    float: left;
+    height: 31px;
+    margin-top: -15px;
+    position: relative;
+    width: 33px;
+}
+.uiList .item .moreItensBtn.imagens {
+    background: url("../images/cam.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+}
+.uiList .item .moreItensBtn.arqs {
+    background: url("../images/upload.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+}
+.uiList .item .moreItensBtn.text {
+    background: url("../images/text.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+}
+.uiList .item .moreItensBtn.content {
+    background: url("../images/article.png") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+}
+.uiList .item .moreItensBtn.categorias {    
+    background: url("../images/categories.png") no-repeat scroll center 0px rgba(0, 0, 0, 0);
+}
+/* label more itens */
+.uiList .item .label-more-holder {
+    bottom: 8px;
+    display: block;
+    padding-bottom: 19px;
+    padding-right: 18px;
+    position: absolute;
+    right: 9px;
+    z-index: 1;
+}
+.uiList .item .label-more-holder .label-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E4;
+    float: right;
+    padding: 11px 20px;
+    text-align: right;
+    width: 150px;
+}
+.uiList .item .label-more-holder .label-content a {
+    color: #73B3C5;
+}
+/* delete */
+.uiList .item .deleteBtn {
+	background: url("../images/delete.png") no-repeat scroll center 0 transparent;
+    height: 31px;
+	float: left;
+    margin-top: -16px;
+    position: relative;
+    width: 33px;
+	display: none;
+}
+.uiList .item.disabled .deleteBtn {
+	display: block;
+}
+
+
+
+/* FORMULARIOS */
+.uiPopHolder .onefield {
+    margin-bottom: 1px;
+    margin-left: 8px;
+    width: 330px;
+}
+.uiHelper {
+    background: url("../images/info.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    cursor: help;
+    float: left;
+    height: 20px;
+    margin-left: 3px;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    top: 0;
+    width: 20px;
+}
+
+
+/* JQUERY UI */
+
+/* datepicker */
+.ui-datepicker-trigger {
+    background: url("../images/datepicker-trigger.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    margin-left: 4px;
+    margin-top: 8px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px;
+}
+.form-item input.hasDatepicker {
+	width: 82px;
+}
+
+/* CK  EDITOR */
+.uiCkeButton {
+	height: 28px;
+    line-height: 100%;
+    padding: 6px 5px;
+    z-index: 2;
+}
+.uiCkeButton:hover {
+	background: #f2f2f2;
+	background: -moz-linear-gradient(top,  #f2f2f2 0%, #cccccc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#cccccc));
+	background: -webkit-linear-gradient(top,  #f2f2f2 0%,#cccccc 100%);
+	background: -o-linear-gradient(top,  #f2f2f2 0%,#cccccc 100%);
+	background: -ms-linear-gradient(top,  #f2f2f2 0%,#cccccc 100%);
+	background: linear-gradient(to bottom,  #f2f2f2 0%,#cccccc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cccccc',GradientType=0 );
+}
+
+/* SCROLL UP */
+#scrollUp {
+    background: url("../images/up-arrow.png") no-repeat scroll center -26px rgba(0, 0, 0, 0);
+    bottom: 16px;
+    display: block;
+    height: 26px;
+    right: 30px;
+    text-indent: -9999px;
+    width: 42px;
+}
+#scrollUp:hover {
+	background-position: center 0;
+}

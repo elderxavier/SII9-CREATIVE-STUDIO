@@ -1,0 +1,287 @@
+
+/* LIST IMAGES - COLUNA ESQUERDA */
+
+.imagens_multiupload .list-img-holder {
+	background: #F2F2F2;
+    float: left;
+    height: 316px;
+    overflow: auto;
+    width: 55%;
+}
+.imagens_multiupload .list-img-holder .data-item {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #E1E1E1;
+    display: inline-block;
+    margin: 5px;
+    padding: 2px 2px 8px;
+    position: relative;
+    text-align: center;
+    width: 92px;
+	
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;	
+	
+    border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	
+	border-image: none;
+	box-shadow: 1px 1px 0 0 #FFFFFF inset;
+}
+
+/* actions */
+.imagens_multiupload .list-img-holder .data-item .actions {
+    float: left;
+    margin-bottom: 1px;
+    width: 100%;
+}
+.imagens_multiupload .list-img-holder .data-item .statusButton {
+    background: url("../images/active.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    float: left;
+    height: 15px;
+    margin-left: 3px;
+    width: 15px;
+	cursor: pointer;
+}
+.imagens_multiupload .list-img-holder .data-item.disabled .statusButton {
+	background: url(../images/canceled.png) no-repeat scroll center center transparent;
+}
+.imagens_multiupload .list-img-holder .data-item .editButton {
+   background: url("../images/f_edit.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    height: 15px;
+    position: relative;
+    text-align: left;
+    text-indent: -9999px;
+    width: 15px;
+    float: left;
+    margin-left: 2px;
+	cursor: pointer;
+	
+}
+.imagens_multiupload .list-img-holder .data-item .closeButton {   
+	background: url("../images/close.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    height: 15px;
+	float: right;
+    position: relative;
+    text-align: left;
+    text-indent: -9999px;
+    width: 15px;
+	cursor: pointer;
+}
+.imagens_multiupload .list-img-holder .data-item .actions .disabled{
+    cursor: default;
+	opacity: 0.2;
+	-moz-opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+
+/*  */
+.imagens_multiupload .list-img-holder .data-item .info-item {
+    float: left;
+    width: 100%;
+}
+/* imagem */
+.imagens_multiupload .list-img-holder .data-item .imagem {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BDC7D8;
+	cursor: move;
+    display: inline-block;
+    padding: 4px;
+}
+.imagens_multiupload .list-img-holder .data-item .imagem img {
+    display: block;
+    height: 74px;
+    width: 74px;
+}
+/* legenda */
+.imagens_multiupload .list-img-holder .data-item .legenda {
+    color: #808080;
+    float: left;
+    font-size: 9px;
+    height: 18px;
+    letter-spacing: -0.01em;
+    line-height: 11px;
+    overflow: hidden;
+    padding: 3px 0;
+    width: 100%;
+}
+.imagens_multiupload .list-img-holder .data-item.disabled {
+	background: url("../images/bg_disabled.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 -1px 0 0 #FFFFFF inset, 0 1px 0 0 #EEECEC inset;
+	-moz-box-shadow: 0 -1px 0 0 #FFFFFF inset, 0 1px 0 0 #EEECEC inset;
+	-webkit-box-shadow: 0 -1px 0 0 #FFFFFF inset, 0 1px 0 0 #EEECEC inset;
+}
+.imagens_multiupload .list-img-holder .data-item.disabled .imagem img {
+	opacity:0.40;
+	-moz-opacity: 0.40;
+	filter: alpha(opacity=40);
+}
+
+/* DATA INFO - COLUNA DIREITA  */
+
+.imagens_multiupload .px-widget {
+    background: none repeat scroll 0 0 #ffffff;
+    float: right;
+    font-family: arial,verdana,helvetica;
+    font-size: 11px;
+    height: 316px;
+    line-height: 15px;
+    overflow: auto;
+    padding: 0 1%;
+    width: 43%;
+}
+/* upload data */
+.imagens_multiupload .upload-data {
+    background: none repeat scroll 0 0 #E6E6E6;
+    border: medium none;
+    float: left;
+    margin: 4px 0;
+    padding: 5px 2%;
+    position: relative;
+    width: 96%;
+}
+.imagens_multiupload .upload-data.success {
+    background: none repeat scroll 0 0 #E7EBF2;
+}
+.imagens_multiupload .upload-data.error {
+    background: none repeat scroll 0 0 #FCEAEA;
+}
+/* filename */
+.imagens_multiupload .upload-data .filename {
+    float: left;
+    padding: 0;
+    width: 85%;
+}
+/* actions  */
+.imagens_multiupload .px-widget ul.actions li {
+    margin: 0;
+    padding: 0;
+}
+.imagens_multiupload .px-widget .actions li span {
+    height: 16px;
+    width: 16px;
+	display: block;
+    overflow: hidden;
+    text-indent: -99999px;
+}
+.imagens_multiupload .px-widget .actions li.upload span {
+    background: url("../images/go.png") no-repeat scroll center center transparent;
+}
+.imagens_multiupload .px-widget .actions li.delete span {
+    background: url("../images/close.png") no-repeat scroll center center transparent;
+}
+.imagens_multiupload .px-widget .actions li.success span {
+    background: url("../images/active.png") no-repeat scroll center top transparent;
+}
+.imagens_multiupload .px-widget .actions li.error span {
+    background: url("../images/error.png") no-repeat scroll center top transparent;
+}
+/* progress bar */
+.imagens_multiupload  .progress {
+    display: none;
+    float: left;
+    margin: 3px 0;
+    width: 100%;
+	position: relative;
+}
+.imagens_multiupload .progressBar {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #999999;
+    float: left;
+    height: 7px;
+    margin: -1px;
+    width: 87%;
+}
+.imagens_multiupload .ui-progressbar .ui-progressbar-value {
+    background: none repeat scroll 0 0 #6D84B4;
+    border: 1px solid #3B5998;
+    height: 100%;
+    margin: -1px;
+}
+.imagens_multiupload .percentage {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 5px;
+    width: 13%;
+}
+/* upload status */
+.imagens_multiupload .upload-data .status {
+    float: left;
+    width: 100%;
+}
+
+/* ACTIONS */
+.imagens_multiupload .multi-upload-actions {
+	float: left;
+	width: 100%;
+	padding: 15px 0;
+}
+.imagens_multiupload .add-arquivos-btn, .imagens_multiupload .send-arquivos-btn {	
+	border: 1px solid #CCCCCC;
+    padding: 10px;
+	width: 170px;
+	margin: 0 10px;
+}
+.imagens_multiupload .add-arquivos-btn {
+	background: #f1f1f1;
+}
+.imagens_multiupload .send-arquivos-btn{
+	background: #81DA2A;
+}
+
+
+/* POP UP TITLE EDIT */
+
+.imagens_multiupload .popEditImagem {
+	
+}
+.imagens_multiupload .popEditImagem .uiPopHolder {
+    text-align: center;
+}
+.imagens_multiupload .popEditImagem .uiPopHolder {
+    float: left;
+    padding: 25px 3%;
+    width: 94%;
+}
+.imagens_multiupload .popEditImagem .uiPopHolder  label[for="descricao"] {
+    margin: 0;
+    position: absolute;
+    right: 26px;
+    top: 14px;
+    width: auto;
+    z-index: 1;
+}
+.imagens_multiupload .popEditImagem .uiStatus {
+    text-align: center;
+}
+
+
+
+/* POP UP IMAGENS - HOLDER */
+
+.popEnviaImagens {
+   
+}
+.popEnviaImagens label[for="descricao"] {
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    z-index: 2;
+}
+.popEnviaImagens #savePosBtn {
+	float: left;
+	padding-left: 15px;
+}
+.popEnviaImagens #savePosBtn.success {
+	background: url("../images/active.png") no-repeat scroll 0 center rgba(0, 0, 0, 0);
+}
+.popEnviaImagens #savePosBtn.error {
+	background: url("../images/error.png") no-repeat scroll 0 center rgba(0, 0, 0, 0);
+}
+
+
+

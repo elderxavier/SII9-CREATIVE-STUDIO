@@ -1,0 +1,52 @@
+.menu {
+    position: relative;
+    text-align: center;
+}
+.menu li{    
+	display: inline-block;
+}
+.menu li a {
+    color: #3A3A3A;
+    float: left;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    margin: 0 6px;
+    padding: 7px 5px;
+}
+.menu li a:hover, .menu li.active a { 	
+	text-decoration: underline;
+}
+.menu .itemlast {
+	
+}	
+
+
+/* submenu */
+.menu .submenu {
+    background: none repeat scroll 0 0 transparent;
+    margin-top: 34px;
+    padding-top: 6px;
+    position: absolute;
+    width: 189px;
+	z-index: 999;
+}
+.menu .submenu li {
+	width: 100%;
+	margin-top: -1px;
+	float: left;
+}
+.menu .submenu li a{	
+	background: #E6E5E6;
+	color: #124C84;
+	float: left;
+	margin: 0;
+    padding: 11px 7%;
+    text-align: left;
+    text-indent: 0;
+    width: 86%;
+}
+.menu .submenu li.active a, .menu .submenu li a:hover  {
+	background: #124C84;
+	color: #E6E5E6;
+	text-decoration: none;
+}

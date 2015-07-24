@@ -1,0 +1,187 @@
+
+
+/* LOGIN */
+#login {
+    margin-top: -159px;
+}
+#login #sendBtn {
+	float: right;
+}
+#login .uiLinkButton {
+	float: left;
+}
+
+/* INTRO */
+#intro.page-content {
+    background: url("../../../images/logo.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+
+/* USUÁRIOS */
+
+.usuarios #addNewItemBtn {
+    float: left;
+}
+.usuarios .uiList .thumb {
+	width: 60px;
+	height: 50px;
+	cursor: pointer;
+}
+.usuarios .uiList .item.disabled.F .publicarBtn {
+    background-position: center -67px;
+}
+.usuarios .uiList .item.disabled.I .publicarBtn{
+    background-position: center -100px;
+}
+.usuarios #popAddItem #cidade-holder {
+    float: left;
+    margin-left: 91px;
+    width: 298px;
+}
+.usuarios #popAddItem #cidade-holder .label {
+    float: left;
+    margin-bottom: 8px;
+    text-align: left;
+    width: 100%;
+}
+
+/* MY ACCOUNT */
+
+.myaccount .menu-actions {
+    float: left;
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+}
+.myaccount #myImageHeadding {
+    border: 4px solid #B0B0B0;
+    display: block;
+    float: left;
+    height: 80px;
+    margin-left: 3px;
+    width: 100px;
+}
+.myaccount #myImageHeadding:hover {
+	opacity:0.60;
+	-moz-opacity: 0.60;
+	filter: alpha(opacity=60);
+}
+.myaccount #openPopTextEditorBtn, .myaccount #openPopIntroTextBtn {
+    float: right;
+    margin-right: 1px;
+    margin-top: 15px;
+}
+.myaccount .formMyaccount .col1, .myaccount .formMyaccount .col2 {
+	width: 48%;
+	float: left;
+}
+.myaccount .formMyaccount .col2 {
+	float: right;
+}
+.myaccount .formMyaccount .uiHelper {
+	position: absolute;
+    right: 12px;
+    top: 0;
+}
+.myaccount .formMyaccount .senha_confirm_holder {
+	float: left;
+	width: 100%;
+}
+.myaccount .formMyaccount #myaccountSaveBtn {
+    float: right;
+}
+.myaccount .formMyaccount #myaccountStatus {
+    float: left;
+    margin-top: 3px;
+    width: 415px;
+}
+
+/* CONTENT */
+.content #popAddItem .titulo-holder label {
+	float: left;
+    text-align: left;
+    width: auto;
+}
+.content #popAddItem .titulo-holder input {
+	width: 327px;
+}
+
+/* CONTEÚDO ÚNICO */
+#content-unique .editor-holder {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+#content-unique #openPopEviaImagensBtn {
+    height: 28px;
+    line-height: 100%;
+    padding: 6px 5px;
+    position: absolute;
+    right: 10px;
+    top: 107px;
+    width: 116px;
+    z-index: 2;
+}
+#content-unique #openPopIntroImageBtn {
+  position: absolute;
+  right: -6px;
+}
+
+
+/* IMÓVEIS */
+.imoveis .uiList .item .title-holder {
+    width: 60%;
+}
+.imoveis .uiList .destaque {
+    font-size: 12px;
+    line-height: 100%;
+    margin-top: -6px;
+    position: absolute;
+    right: 190px;
+    top: 50%;
+}
+
+
+/* CONFIGURAÇÕES */
+.ini_cfig .page-content .form-holder #saveBtn {
+    float: right;
+}
+.ini_cfig .page-content .form-holder textarea{
+    height: 60px;
+    width: 383px;    
+}
+
+
+/* MENU CONFIG */
+
+/* pop create new - pop edit */
+#popCreateNewMenu, #popEditMenu {
+	margin-top: -248px;
+}
+#popCreateNewMenu #vs-group, #popEditMenu #vs-group {
+    float: left;
+    margin-left: 13px;
+    margin-right: -51px;
+    margin-top: 9px;
+    position: relative;
+    z-index: 2;
+}
+#popCreateNewMenu #vs-group input, #popEditMenu #vs-group input {
+    margin-left: 6px;
+    margin-top: 3px;
+}
+#popCreateNewMenu #vs-group label, #popEditMenu #vs-group label {
+    margin: 0 0 0 4px;
+    text-align: left;
+    width: 24px;
+}
+#popCreateNewMenu #pos, #popCreateNewMenu #nivel,
+#popEditMenu #pos, #popEditMenu #nivel{
+	float: left;
+    width: 37px;
+}
+#popCreateNewMenu textarea, #popEditMenu textarea {
+    height: 140px;
+    width: 382px;
+}
+
+
