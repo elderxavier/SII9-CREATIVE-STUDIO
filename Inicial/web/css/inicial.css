@@ -1,0 +1,61 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url('../images/bg_body.jpg') repeat center 0 #F6F6F6;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+#header {
+  background: url("../images/header_bg.png") no-repeat scroll center bottom transparent;
+  float: left;
+  height: 692px;
+  position: relative;
+  width: 100%;
+}
+#header-top {
+  background: url("../images/topo.png") no-repeat scroll center 0 transparent;
+  height: 140px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#main {
+  background: url("../images/body_center.png") no-repeat scroll center 123px transparent;
+  float: left;
+  height: 873px;
+  position: relative;
+  width: 100%;
+}
+
+#footer {
+  background: url("../images/footer.jpg") repeat scroll center 0 #111111;
+  float: left;
+  height: 258px;
+  position: relative;
+  width: 100%;
+}
+
+/* preloader */
+#preloader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 99999999;
+  background: white;
+}
+#preloader #status {
+  width: 54px;
+  height: 55px;
+  background: url("../images/loading.gif") no-repeat top center;
+  position: absolute;
+  left: 50%;
+  margin-left: -26.5px;
+  top: 50%;
+  margin-top: -27.5;
+}

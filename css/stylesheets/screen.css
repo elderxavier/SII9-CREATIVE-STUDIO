@@ -1,0 +1,1105 @@
+/* line 17, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_geral.sass */
+* {
+  outline: none;
+}
+
+/* line 4, ../sass/_geral.sass */
+body {
+  background: url('../../images/bg_body.jpg') repeat center center #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../sass/_geral.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 11, ../sass/_geral.sass */
+::selection {
+  background: #986d6b;
+}
+
+/* line 14, ../sass/_geral.sass */
+strong {
+  font-weight: bold;
+}
+
+/* line 17, ../sass/_geral.sass */
+h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "ubunturegular";
+  font-size: 42.31px;
+  color: #bf0f0f;
+}
+
+/* line 24, ../sass/_geral.sass */
+h2 {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-family: "ubuntumedium";
+  font-size: 42.31px;
+  color: #4e4e4e;
+  margin-top: 160px;
+  margin-bottom: 30px;
+}
+
+/* line 34, ../sass/_geral.sass */
+h3 {
+  color: #bf0f0f;
+  font-family: "ubunturegular";
+  font-size: 30.74px;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 41, ../sass/_geral.sass */
+h4 {
+  color: white;
+  float: left;
+  font-family: "ubunturegular";
+  line-height: 1;
+  font-size: 42.31px;
+  margin-top: 20px;
+  padding-left: 2%;
+  text-align: left;
+  width: 98%;
+}
+
+/* line 51, ../sass/_geral.sass */
+h5 {
+  width: 100%;
+  text-align: center;
+  font-family: "ubuntubold";
+  font-size: 50px;
+  color: #3b3b3b;
+  line-height: 1;
+}
+/* line 58, ../sass/_geral.sass */
+h5 span {
+  color: #fa2826;
+}
+
+/* line 61, ../sass/_geral.sass */
+h6 {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-family: "ubunturegular";
+  font-size: 20px;
+  color: #555454;
+  line-height: 25px;
+}
+/* line 70, ../sass/_geral.sass */
+h6 span {
+  color: #fa2826;
+}
+
+/* line 73, ../sass/_geral.sass */
+#preloader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 99999999;
+  background: white;
+}
+/* line 80, ../sass/_geral.sass */
+#preloader #status {
+  width: 54px;
+  height: 55px;
+  background: url("../../imagens/loading.gif") no-repeat top center;
+  position: absolute;
+  left: 50%;
+  margin-left: -26.5px;
+  top: 50%;
+  margin-top: -27.5;
+}
+
+/* line 90, ../sass/_geral.sass */
+.alinhamento {
+  width: 100% !important;
+  width: 1100px;
+  position: relative;
+  max-width: 1100px;
+  height: auto;
+  margin: auto;
+}
+
+/* line 96, ../sass/_geral.sass */
+#studio {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+  float: left;
+  padding-bottom: 225px;
+  position: relative;
+  width: 100%;
+}
+#studio-wrapper {
+  z-index: 2;
+}
+#studio #bg2-holder {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+#studio #bg-bottom {
+  bottom: 0;
+  position: absolute;
+  background: url("../../images/studio_bg_bottom.png") no-repeat bottom center;
+  width: 100%;
+  height: 206;
+}
+#studio .studio-kanji {
+  background: url("../../images/studio_kanji.png") no-repeat center center;
+  height: 554px;
+  width: 512px;
+  position: absolute;
+}
+#studio-kanji-left {
+  left: 50%;
+  margin-left: -938px;
+  top: -21px;
+}
+#studio-kanji-right {
+  margin-right: -963px;
+  right: 50%;
+  top: 411px;
+}
+
+/* line 102, ../sass/_geral.sass */
+#studio #rasgo {
+  width: 100%;
+  height: 31px;
+  float: left;
+  background: url("../../imagens/rasgo.png") no-repeat top center;
+  position: absolute;
+  margin-top: -18px;
+  z-index: 1;
+}
+/* line 110, ../sass/_geral.sass */
+#studio .kanji-3d {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: -70px 0 60px 0;
+}
+/* line 117, ../sass/_geral.sass */
+#studio .kanji-3d img {
+  position: relative;
+}
+/* line 120, ../sass/_geral.sass */
+#studio .texto {
+  margin: 0 auto;
+  font-family: "ubunturegular";
+  font-size: 16.13px;
+  color: #8e8d8d;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 100px;
+}
+/* line 131, ../sass/_geral.sass */
+#studio .box-carousel {
+  width: 551px;
+  height: 306px;
+  margin: 0 auto;
+  background: #a4a4a4;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.box-carousel .prev, .box-carousel .next {
+  border: medium none;
+  height: 46px;
+  margin-top: -23px;
+  position: absolute;
+  text-indent: -9999px;
+  top: 50%;
+  width: 46px;
+  z-index: 10;
+}
+.box-carousel .prev {  
+  background: url('../../imagens/caroussel_prev.png') no-repeat center center transparent;
+  left: 4px;
+}
+.box-carousel .next {  
+  background: url('../../imagens/caroussel_next.png') no-repeat center center transparent;
+  right: 4px;
+}
+
+/* line 138, ../sass/_geral.sass */
+#studio .box-carousel img {
+  margin: 8px 0 0 6px;
+}
+/* line 141, ../sass/_geral.sass */
+#studio .kanji-3d-carousel {
+  background: url("../../imagens/kanji-3d.png") no-repeat scroll 0 0 / 80% auto rgba(0, 0, 0, 0);
+  height: 106px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+  position: relative;
+  width: 115px;
+  z-index: 10;
+}
+
+/* line 150, ../sass/_geral.sass */
+#criacao {
+  float: left;
+  padding-bottom: 324px;
+  position: relative;
+  width: 100%;
+}
+#criacao-wrapper {
+  z-index: 2;
+}
+#criacao #bg-top {
+  background: none repeat scroll 0 0 #940b02;  
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  height: 75%
+}
+#criacao #criacao-bg2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#criacao #bg-criacao-montanhas {
+  background: url("../../images/bg_criacoes_montanhas.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+#criacao #bg-criacao-passaro {
+  background: url("../../images/bg_criacoes_passaro.png") no-repeat center bottom;
+  width: 49px;
+  height: 27px;
+  left: 50%;
+  bottom: 50%; 
+  position: absolute;
+}
+/* line 156, ../sass/_geral.sass */
+#criacao .redes-sociais {
+  width: auto;
+  height: auto;
+  float: right;
+  margin-right: 18px;
+  margin-top: 10px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 167, ../sass/_geral.sass */
+#criacao .redes-sociais img:hover {
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 176, ../sass/_geral.sass */
+#criacao .menu-case {
+  float: right;
+  position: relative;
+  z-index: 10;
+}
+/* line 179, ../sass/_geral.sass */
+#criacao .menu-case li {
+  float: left;
+  font-family: "ubunturegular";
+  font-size: 15px;
+  color: white;
+  padding: 10px 10px 0 10px;
+  cursor: pointer;
+}
+/* line 187, ../sass/_geral.sass */
+#criacao .menu-case li:hover {
+  background: url("../../imagens/ico-menu-cases.png") no-repeat top center;
+}
+/* line 190, ../sass/_geral.sass */
+#criacao .menu-case .ativo {
+  background: url("../../imagens/ico-menu-cases.png") no-repeat top center;
+}
+/* line 193, ../sass/_geral.sass */
+#criacao .cases {
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5px;
+  position: relative;
+  width: 96%;
+  overflow: hidden;
+}
+/* line 200, ../sass/_geral.sass */
+#criacao .cases li {
+  width: 33.33%;
+  float: left;
+  /*filtro P/B */
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  /*qualidade */
+  image-rendering: auto;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  cursor: pointer;
+}
+/* line 215, ../sass/_geral.sass */
+#criacao .cases li img {
+  width: 100%;
+  display: block;
+}
+/* line 219, ../sass/_geral.sass */
+#criacao .cases li:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  image-rendering: auto;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 228, ../sass/_geral.sass */
+#criacao #logotipos, #criacao #identidade-completa {
+  display: none;
+}
+
+/* line 231, ../sass/_geral.sass */
+#fancybox-thumbs {
+  left: 50% !important;
+  margin-left: -324px !important;
+}
+
+/* line 236, ../sass/_geral.sass */
+#oque-fazemos {
+  float: left;
+  padding-bottom: 164px;
+  width: 100%;
+}
+#oque-fazemos .info {
+  float: left;
+  margin-left: 9%;
+  margin-top: 148px;
+  position: absolute;
+  width: 215px;
+}
+#oque-fazemos .info h3 {
+  color: #ff0d3b;
+  font-family: Ubuntubold;
+  font-size: 47px;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  margin-top: 25px;
+  text-align: left;
+}
+#oque-fazemos .info h3 .light{
+  font-family: Ubuntulight;
+}
+#oque-fazemos .info .desc {
+  color: #555454;
+  font-family: Ubuntulight;
+  line-height: 1;
+  margin-top: 12px;
+}
+#oque-fazemos #grafico-holder {
+  margin-bottom: 43px;
+  position: relative;
+}
+#oque-fazemos #grafico-holder .info {
+  margin-top: 77px;
+  width: 400px;
+}
+#oque-fazemos #grafico-holder .odesign-kenji {
+  float: right;
+  margin-right: 14%;
+  margin-top: 14px;
+}
+#oque-fazemos hr {
+  background-color: #f6d9af;
+  border: medium none;
+  clear: both;
+  display: block;
+  float: left;
+  height: 3px;
+  margin-top: 46px;
+  width: 100%;
+}
+
+/* line 242, ../sass/_geral.sass */
+#oque-fazemos #box-principal {
+  width: 1100px;
+  height: 589px;
+  float: left;
+}
+/* line 247, ../sass/_geral.sass */
+#oque-fazemos #box-principal .box-1 {
+  height: 589px;
+}
+/* line 250, ../sass/_geral.sass */
+#oque-fazemos #box-principal .box-2, #oque-fazemos #box-principal .box-3, #oque-fazemos #box-principal .box-4 {
+  display: none;
+}
+/* line 253, ../sass/_geral.sass */
+#oque-fazemos #box-principal .box-1, #oque-fazemos #box-principal .box-2, #oque-fazemos #box-principal .box-3, #oque-fazemos #box-principal .box-4 {
+  width: 1100px;
+  position: absolute;
+}
+/* line 257, ../sass/_geral.sass */
+#oque-fazemos .ico-menu {
+  width: 329px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: none;
+}
+/* line 263, ../sass/_geral.sass */
+#oque-fazemos .ico-menu li {
+  float: left;
+  padding: 10px;
+}
+/* line 267, ../sass/_geral.sass */
+#oque-fazemos .box-img {
+  width: 796px;
+  margin: 0 auto;
+  margin-top: 85px;
+}
+/* line 272, ../sass/_geral.sass */
+#oque-fazemos .box-img li {
+  float: left;
+  width: 262px;
+  float: left;
+}
+/* line 277, ../sass/_geral.sass */
+#oque-fazemos .box-img .text {
+  text-align: center;
+  font-family: "ubunturegular";
+  font-size: 20px;
+  color: #555454;
+  margin-top: 15px;
+}
+
+/* line 284, ../sass/_geral.sass */
+#frase {
+  background: url("../../imagens/bg-frase.jpg") no-repeat scroll center top rgba(0, 0, 0, 0);
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 290, ../sass/_geral.sass */
+#planos {
+  background: #f0f0f0 none repeat scroll 0 0;
+  float: left;
+  width: 100%;
+}
+
+#planos #slider-holder {
+  float: left;
+  margin-bottom: 54px;
+  margin-top: 153px;
+  position: relative;
+  width: 100%;
+}
+#planos #nivoSlider a.nivo-prevNav, #planos #nivoSlider a.nivo-nextNav {
+  width: 60px;
+  height: 60px;
+}
+#planos #nivoSlider a.nivo-prevNav {
+  background: url("../../images/planos_prev.png") no-repeat scroll center center transparent;
+}
+#planos #nivoSlider a.nivo-nextNav {
+  background: url("../../images/planos_next.png") no-repeat scroll center center transparent;
+}
+
+
+
+
+/* line 296, ../sass/_geral.sass */
+#planos .box-planos {
+  height: 583px;
+  display: none;
+}
+/* line 300, ../sass/_geral.sass */
+#planos .plano-1, #planos .plano-2, #planos .plano-3, #planos .plano-4, #planos .plano-5, #planos .plano-6 {
+  position: absolute;
+  display: none;
+}
+/* line 304, ../sass/_geral.sass */
+#planos .icons-planos {
+  width: 290px;
+  margin: 0 auto;
+}
+/* line 308, ../sass/_geral.sass */
+#planos .clique {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-family: "ubunturegular";
+  font-size: 13px;
+  color: #555454;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+/* line 318, ../sass/_geral.sass */
+#sedes {
+  width: 100%;
+  float: left;
+  background-color: #151515;
+}
+
+/* line 324, ../sass/_geral.sass */
+#contato {
+  background: url("../../images/montanhas_black.png") no-repeat scroll center bottom #f5f5f5;
+  float: left;
+  padding-bottom: 37px;
+  width: 100%;
+}
+#contato .bg2 {
+  background: url("../../images/montanhas_cinza.png") no-repeat scroll center bottom #ffffff;
+  height: 620px;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+.contato-wrapper {
+  z-index: 1;
+}
+/* line 330, ../sass/_geral.sass */
+#contato .icon-ola {
+  width: 100%;
+  height: 125px;
+  float: left;
+  text-align: center;
+  margin-top: 138px;
+  margin-bottom: 40px;
+}
+/* line 338, ../sass/_geral.sass */
+#contato .box-contatos {
+  height: auto;
+  margin: 80px auto 0;
+}
+/* line 344, ../sass/_geral.sass */
+#contato .box-contatos li {
+  text-align: center;
+}
+/* line 349, ../sass/_geral.sass */
+#contato .box-contatos li .cidade {
+  font-family: "ubuntubold";
+  font-size: 18px;
+  color: #e30917;
+  margin-top: 15px;
+}
+/* line 354, ../sass/_geral.sass */
+#contato .box-contatos .fones {
+  margin-top: 12px;
+  text-align: center;
+}
+#contato .box-contatos .fones li {
+  display: inline-block;
+  float: none;
+  margin: 9px 10px;
+  text-align: left;
+}
+#contato .box-contatos .fones p {
+  background: url("../../imagens/ico-contato.png") no-repeat scroll 0 -4px transparent;
+  color: #595858;
+  font-family: "ubuntubold";
+  font-size: 18px;
+  padding-left: 13px;
+}
+/* line 359, ../sass/_geral.sass */
+#contato .box-contatos .fones span, #contato .box-contatos li .info-contato {
+  margin-top: 10px;
+  font-family: "ubuntulight";
+  font-size: 15px;
+  color: #595858;
+  line-height: 20px;
+}
+#contato .box-contatos .fones span {
+
+}
+/* line 366, ../sass/_geral.sass */
+#contato .box-contatos li .info-contato a {
+  color: #595858;
+}
+/* line 369, ../sass/_geral.sass */
+#contato .box-contatos .primeira-li {
+  margin-left: 0px;
+}
+/* line 372, ../sass/_geral.sass */
+#contato .barra-contato {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 378, ../sass/_geral.sass */
+#contato .box-img {
+  height: auto;
+  margin: 0 auto;
+}
+/* line 383, ../sass/_geral.sass */
+#contato .box-img img {
+  position: absolute;
+  cursor: pointer;
+}
+/* line 387, ../sass/_geral.sass */
+#contato .box-img ul {
+  float: left;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+/* line 391, ../sass/_geral.sass */
+#contato .box-img ul li {
+  background: none repeat scroll 0 0 #dddcdc;
+  display: inline-block;
+  height: 278px;
+  margin-left: 0;
+  position: relative;
+  text-align: left;
+  width: 275px;
+}
+/* line 398, ../sass/_geral.sass */
+#contato .box-img ul li input[type="text"], #contato .box-img ul li textarea, #contato .box-img ul li select {
+  width: 245px;
+  height: 39px;
+  float: left;
+  border: 0;
+  background: #ebebeb;
+  margin: 8px 0 0 15px;
+  padding-left: 10px;
+  font-family: "ubuntumedium";
+  font-size: 15px;
+  color: #a79f9f;
+}
+/* line 410, ../sass/_geral.sass */
+#contato .box-img ul li textarea {
+  width: 245px;
+  height: 94px;
+  max-width: 245px;
+  max-height: 94px;
+  padding-top: 10px;
+}
+/* line 417, ../sass/_geral.sass */
+#contato .box-img ul li input[type="submit"], #contato .box-img ul li input[type="button"] {
+  width: 71px;
+  height: 22px;
+  float: right;
+  background: #ebebeb;
+  font-family: "ubuntumedium";
+  font-size: 15px;
+  color: #a79f9f;
+  border: 0;
+  margin: 5px 15px 0 0;
+  cursor: pointer;
+}
+/* line 429, ../sass/_geral.sass */
+#contato .box-img ul .form-entre-em-contato, #contato .box-img ul .form-entre-em-contato-2 {
+  display: none;
+}
+/* line 432, ../sass/_geral.sass */
+#contato .box-img ul .primeira-li {
+  margin-left: 0;
+}
+/* line 435, ../sass/_geral.sass */
+#contato .logo-contato {
+  float: left;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* line 1, ../sass/_topo.sass */
+#topo {
+  width: 100%;
+  height: 100px;
+  float: left;
+  position: fixed;
+  background: url("../../imagens/bg-barra-menu.png") repeat-x top center;
+  z-index: 999;
+}
+/* line 9, ../sass/_topo.sass */
+#topo .logo-topo {
+  background: url("../../imagens/logo.png") no-repeat scroll center top / 100% auto rgba(0, 0, 0, 0);
+  float: left;
+  height: 100px;
+  margin: 11px 0 0 18%;
+  width: 235px;
+}
+/* line 15, ../sass/_topo.sass */
+#topo .navigation-menu {
+  float: right;
+  margin: 40px 25px 0 0;
+}
+/* line 19, ../sass/_topo.sass */
+#topo .navigation-menu li {
+  float: left;
+  font-family: "ubuntumedium";
+  font-size: 12.77px;
+  color: white;
+  padding: 0 10px 0 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 31, ../sass/_topo.sass */
+#topo .navigation-menu .ultima-li {
+  padding-right: 0;
+}
+/* line 34, ../sass/_topo.sass */
+#topo .navigation-menu li:hover {
+  color: #343434;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+/* line 1, ../sass/_slide-topo.sass */
+#slide-topo {
+  width: 100%;
+  float: left;
+}
+/* line 8, ../sass/_slide-topo.sass */
+#slide-topo #my-slideshow li {
+  position: absolute;
+}
+/* line 11, ../sass/_slide-topo.sass */
+#slide-topo #my-slideshow li .slide-1 {
+  width: 100%;
+  height: 772px;
+  position: absolute;
+  background: url("../../imagens/slide-1.jpg") no-repeat top center;
+}
+/* line 17, ../sass/_slide-topo.sass */
+#slide-topo #my-slideshow li .slide-2 {
+  width: 100%;
+  height: 772px;
+  position: absolute;
+  background: url("../../imagens/slide-2.jpg") no-repeat top center;
+}
+/* line 23, ../sass/_slide-topo.sass */
+#slide-topo #my-slideshow li .slide-3 {
+  width: 100%;
+  height: 772px;
+  position: absolute;
+  background: url("../../imagens/slide-3.jpg") no-repeat top center;
+}
+/* line 29, ../sass/_slide-topo.sass */
+#slide-topo #my-slideshow li .slide-4 {
+  width: 100%;
+  height: 772px;
+  position: absolute;
+  background: url("../../imagens/slide-4.jpg") no-repeat top center;
+}
+
+
+/* line 35, ../sass/_slide-topo.sass */
+#slide-topo .bjqs-prev {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  left: 3%;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+/* line 42, ../sass/_slide-topo.sass */
+#slide-topo .bjqs-prev a {
+  width: 46px;
+  height: 46px;
+  background: url("../../imagens/prev.png") no-repeat top center;
+  padding: 25px 25px 4px 25px;
+}
+/* line 48, ../sass/_slide-topo.sass */
+#slide-topo .bjqs-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  right: 3%;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+/* line 55, ../sass/_slide-topo.sass */
+#slide-topo .bjqs-next a {
+  width: 46px;
+  height: 46px;
+  background: url("../../imagens/next.png") no-repeat top center;
+  padding: 25px 25px 4px 25px;
+}
+/* line 61, ../sass/_slide-topo.sass */
+#slide-topo .bjqs-prev:hover, #slide-topo .bjqs-next:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+/* line 1, ../sass/_footer.sass */
+#footer {
+  float: left;
+  height: 125px;
+  position: relative;
+  width: 100%;
+}
+/* line 6, ../sass/_footer.sass */
+#footer .txt {
+  bottom: 0;
+  color: #807e7e;
+  font-family: "ubunturegular";
+  font-size: 15px;
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  text-align: left;
+  width: auto;
+}
+/* line 16, ../sass/_footer.sass */
+#footer .allanjuniorian {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  width: auto;
+}
+
+/* line 61, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 93.75%;
+}
+
+/* line 64, ../../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 15px;
+  line-height: 1.33333em;
+}
+
+
+
+/* submenu level1 */
+.navigation-menu li ul {
+  border: 1px solid #c6c6c6;
+  display: none;
+  padding: 0;
+  position: absolute;
+  text-align: left;
+  top: 36px;
+  width: 167px;
+  z-index: 3;
+}
+.navigation-menu li:hover > ul {
+    display: block;
+}
+.navigation-menu li ul li {
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+.navigation-menu li ul li a {
+  background-color: #ffffff;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+}
+.navigation-menu li ul li:hover > a {
+    background-color: #fbfbfb;
+    color: #333333;
+}
+
+/* submenu level2 e abaixo */
+.navigation-menu li ul li ul {
+  left: 100%;
+  margin-left: 0;
+  margin-top: -1px;
+  top: 0;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* MENU TOP FIXED */
+/* -------------------------------------------------------------------------- */
+
+/* navbar collapse */
+.top-nav-collapse {
+  left: 0;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+}
+.top-nav-collapse li a {
+  
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* MENU MOBILE */
+/* -------------------------------------------------------------------------- */
+#topo .mobile-nav-icon {
+  background: url("../../images/mobile_nav_icon_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  bottom: 41px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: auto;
+  width: 20px;
+  z-index: 9999;
+}
+#topo .mobile-nav-icon.opened {
+  opacity:0.65;
+  -moz-opacity: 0.65;
+  filter: alpha(opacity=65);
+}
+
+/* menu mobile */
+#topo .mobile-nav {
+  left: 0;
+  margin-top: 0 !important;
+  padding-top: 0px;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  z-index: 9998;
+}
+#topo .mobile-nav a {
+  border-bottom: 1px solid #333;
+  float: left;
+  font-family: Verdana,Arial,Helvetica;
+  font-size: 14px;
+  line-height: 100%;
+  list-style: outside none none;
+  position: relative;
+  width: 100%;
+}
+#topo .mobile-nav a li {
+  background-color: rgba(17, 17, 17, 0.9);
+  color: #fff;
+  float: left;
+  padding: 11px 5%;
+  text-decoration: none;
+  width: 100%;
+}
+#topo .mobile-nav a:hover > li , #topo .mobile-nav a > li.active  {
+  color: #de0e1d;
+}
+ #topo .mobile-nav a li i {
+  font-size: 8px;
+  position: absolute;
+  right: 3px;
+}
+
+/* submenu level1 */
+#topo .mobile-nav li ul {
+  background: #ffffff;
+  display: none;
+  float: left;
+  padding: 0 7%;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+#topo .mobile-nav li ul li {  
+  border: none;
+  border-left: 1px dotted #cdcdcd;
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+#topo .mobile-nav li ul li a {
+  background-color: #ffffff;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+}
+#topo .mobile-nav li ul li:hover > a, #topo .mobile-nav li ul li.active > a {
+  background-color: #fbfbfb;
+  color: #333333;
+}
+
+/* submenu level2 e abaixo */
+#topo .mobile-nav li ul li ul {
+  
+}
