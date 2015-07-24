@@ -3,13 +3,12 @@
 ?>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <link rel="shortcut icon" href="imagens/favicon.png">
-  <link rel="icon" href="imagens/favicon.png" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   <meta name="HandheldFriendly" content="true"/>
-  <link rel="stylesheet" href="css/stylesheets/screen.css">
+	<link rel="stylesheet" href="css/stylesheets/screen.css">
   <link rel="stylesheet" href="css/stylesheets/stylesheet.css">    
 
   <script src="js/jquery-1.10.2.min.js"></script>
@@ -63,7 +62,7 @@
           })
       //]]>      
   </script>
-  <title>Sii9 - Creative Studio</title>  
+	<title>Sii9 - Creative Studio</title>  
 </head>
 <body>
   <div id="preloader">
