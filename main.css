@@ -1,0 +1,26 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+  background: url('../../images/body_bg_white.jpg');
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 	16px;
+	line-height: 1.3;
+	color: #333333;
+}
+#line-center {
+  background: url('../../images/header_bg.jpg');
+  height: 300px;
+  margin-top: -150px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+#logo-center {
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  position: absolute;
+  top: 50%;
+}

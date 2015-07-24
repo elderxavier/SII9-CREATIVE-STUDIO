@@ -1,0 +1,89 @@
+/********************
+ * FEATURE CAROUSEL *
+ ********************/
+.feature-carousel-holder {
+  float: left;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+.feature-carousel {
+  float: right;
+  font-family: Arial;
+  font-size: 12px;
+  height: 312px;
+  margin-bottom: 0.5em;
+  margin-right: 10%;
+  position: relative;
+  width: 550px;
+}
+.feature-carousel .carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  cursor:pointer;
+}
+.feature-carousel .carousel-image {
+  border:0;
+  display:block;
+}
+.feature-carousel .carousel-feature .carousel-caption {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color:#000;
+}
+.feature-carousel .carousel-feature .carousel-caption p {
+  margin:0;
+  padding:5px;
+  font-weight:bold;
+  font-size:12px;
+  color:white;
+}
+.feature-carousel .tracker-summation-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:230px;
+  padding:3px;
+  margin:3px;
+  background-color:#000;
+}
+.feature-carousel .tracker-individual-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:210px;
+  padding:0;
+  margin:0;
+}
+.feature-carousel .tracker-individual-container li {
+  list-style:none;
+}
+.feature-carousel .tracker-individual-container .tracker-individual-blip {
+  margin:0 3px;
+  padding:0 3px;
+  color:white;
+  text-align:center;
+  background-color:#DDD;
+}
+.feature-carousel .tracker-individual-container .tracker-individual-blip-selected {
+  color:white;
+  font-weight:bold;
+  background-color:#000;
+}
+
+/* navigation */
+.feature-carousel-holder .carousel-left, .feature-carousel-holder .carousel-right {
+  cursor: pointer;
+  margin-top: 18px;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+.feature-carousel-holder .carousel-left {
+  left: 3%;
+}
+.feature-carousel-holder .carousel-right {
+  right:3%;
+}

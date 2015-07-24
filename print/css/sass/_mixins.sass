@@ -1,0 +1,60 @@
+// Mixin: Automaticamente escreve 
+// Uso: +background-2x(logo)
+// Com imagem jpg: +background-2x(foto,jpg)
+// Obrigatório ter a imagem normal e retina no mesmo diretório - "imagem.png" e "imagem@2x.png"
+
+// OUTPUT CSS:
+// #logo {
+//   width: 191px;
+//   height: 79px;
+//   top: 20px;
+//   background: url('/images/logo.png') no-repeat;
+// }
+// @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+//   #logo {
+//     background-image: url('/images/logo@2x.png');
+//     background-size: 191px 79px;
+//   }
+// }
+
+
+// --------------------------------------------------
+=background-2x($background, $file: 'png')
+	$image: #{$background+"."+$file}
+	$image2x: #{$background+"@2x."+$file}
+
+	background: image-url($image) no-repeat
+	@media (min--moz-device-pixel-ratio: 1.3),(-o-min-device-pixel-ratio: 2.6/2),(-webkit-min-device-pixel-ratio: 1.3),(min-device-pixel-ratio: 1.3),(min-resolution: 1.3dppx)
+		background-image: image-url($image2x)
+		background-size: image-width($image) image-height($image)
+
+@mixin background-size ($brackground-size: 100% auto)
+	background-size: $brackground-size
+	-webkit-background-size: $brackground-size
+	-o-background-size: $brackground-size
+	-khtml-background-size: $brackground-size
+	-moz-background-size: $brackground-size
+
+@mixin transition-opacity ($transition-property: opacity, $transition-duration: 0.2s, $transition-timing-function: linear)
+	transition: $transition-property $transition-duration $transition-timing-function
+	-moz-transition: $transition-property $transition-duration $transition-timing-function
+	-webkit-transition: $transition-property $transition-duration $transition-timing-function
+	-o-transition: $transition-property $transition-duration $transition-timing-function
+
+@mixin transition-border ($transition-property: border, $transition-duration: 0.2s)
+	transition: $transition-property $transition-duration
+	-moz-transition: $transition-property $transition-duration
+	-webkit-transition: $transition-property $transition-duration
+	-o-transition: $transition-property $transition-duration
+
+@mixin transition-altura ($transition-property: height, $transition-duration: 0.3s)
+	transition: $transition-property $transition-duration
+	-moz-transition: $transition-property $transition-duration
+	-webkit-transition: $transition-property $transition-duration
+	-o-transition: $transition-property $transition-duration
+
+@mixin transition ($transition-property: all, $transition-duration: 0.2s)
+	transition: $transition-property $transition-duration
+	-moz-transition: $transition-property $transition-duration
+	-webkit-transition: $transition-property $transition-duration
+	-o-transition: $transition-property $transition-duration

@@ -1,0 +1,439 @@
+*
+	outline: none
+
+body
+	margin: 0
+	padding: 0
+
+a
+	text-decoration: none
+
+::selection
+	background: #986d6b
+
+strong
+	font-weight: bold
+
+h1
+	width: 100%
+	text-align: center
+	font-family: 'ubunturegular'
+	font-size: 42.31px
+	color: #bf0f0f
+
+h2
+	width: 100%
+	float: left
+	text-align: center
+	font-family: 'ubuntumedium'
+	font-size: 42.31px
+	color: #4e4e4e
+	margin-top: 160px
+	margin-bottom: 30px
+
+h3
+	width: 100%
+	text-align: center
+	font-family: 'ubunturegular'
+	font-size: 30.74px
+	color: #bf0f0f
+
+h4
+	width: 1100px - 18
+	float: left
+	text-align: left
+	font-family: 'ubunturegular'
+	font-size: 42.31px
+	color: #fff
+	padding-left: 18px
+	margin-top: 20px
+
+h5
+	width: 100%
+	text-align: center
+	font-family: 'ubuntubold'
+	font-size: 50px
+	color: #3b3b3b
+
+	span
+		color: #fa2826
+
+h6
+	width: 100%
+	float: left
+	text-align: center
+	font-family: 'ubunturegular'
+	font-size: 20px
+	color: #555454
+	line-height: 25px
+
+	span
+		color: #fa2826
+
+#preloader
+	width: 100%
+	height: 100%
+	position: fixed
+	z-index: 99999999
+	background: #fff
+	
+	#status
+		width: 54px
+		height: 55px
+		background: url("../../imagens/loading.gif") no-repeat top center
+		position: absolute
+		left: 50%
+		margin-left: -26.5px
+		top: 50%
+		margin-top: -27.5
+
+.alinhamento
+	width: 1100px
+	height: auto
+	margin: auto
+
+
+#studio
+	width: 100%
+	height: 1188px
+	float: left
+	background: url("../../imagens/bg-studio.jpg") no-repeat top center
+
+	#rasgo
+		width: 100%
+		height: 31px
+		float: left
+		background: url("../../imagens/rasgo.png") no-repeat top center
+		position: absolute
+		margin-top: -18px
+
+	.kanji-3d
+		width: 100%
+		height: 211px
+		float: left
+		text-align: center
+		margin: -70px 0 60px 0
+
+		img
+			position: relative
+
+	.texto
+		width: 885px
+		margin: 0 auto
+		font-family: 'ubunturegular'
+		font-size: 16.13px
+		color: #8e8d8d
+		line-height: 25px
+		text-align: left
+		margin-top: 110px
+		margin-bottom: 100px
+
+	.box-carousel
+		width: 546px
+		height: 306px
+		margin: 0 auto
+		background: #a4a4a4
+		margin-top: 20px
+
+		img
+			margin: 8px 0 0 6px
+
+	.kanji-3d-carousel
+		width: 115px
+		height: 106px
+		float: right
+		background: url("../../imagens/kanji-3d.png") no-repeat
+		background-size: 80%
+		margin: -50px 360px 0 0
+		position: relative
+
+#criacao
+	width: 100%
+	height: 1445px
+	float: left
+	background: url("../../imagens/bg-criacao.jpg") no-repeat top center
+
+	.redes-sociais
+		width: auto
+		height: auto
+		float: right
+		margin-right: 18px
+		margin-top: 10px
+		transition: 0.3s
+		-webkit-transition: 0.3s
+		-moz-transition: 0.3s
+		-o-transition: 0.3s
+
+		img:hover
+			-ms-transform: rotate(360deg)
+			-webkit-transform: rotate(360deg)
+			transform: rotate(360deg)
+			transition: 0.3s
+			-webkit-transition: 0.3s
+			-moz-transition: 0.3s
+			-o-transition: 0.3s
+
+	.menu-case
+		float: right
+
+		li
+			float: left
+			font-family: 'ubunturegular'
+			font-size: 15px
+			color: #fff
+			padding: 10px 10px 0 10px
+			cursor: pointer
+
+		li:hover
+			background: url("../../imagens/ico-menu-cases.png") no-repeat top center
+
+		.ativo
+			background: url("../../imagens/ico-menu-cases.png") no-repeat top center
+
+	.cases
+		width: 1061px
+		height: 1007px
+		margin: 0 auto
+		margin: 130px 0 0 22px
+		position: absolute
+
+		li
+			width: 353px
+			height: 252px
+			float: left
+			/*filtro P/B*/ 
+			filter: gray /* IE6-9 */
+			-webkit-filter: grayscale(100%) /* Chrome 19+ & Safari 6+ */
+			/*qualidade*/
+			image-rendering: auto
+			transition: 0.3s
+			-webkit-transition: 0.3s
+			-moz-transition: 0.3s
+			-o-transition: 0.3s
+			cursor: pointer
+
+			img
+				width: 353px
+				height: 252px
+
+		li:hover
+			filter: none /* Firefox 10+ */
+			-webkit-filter: grayscale(0%) /* Chrome 19+ & Safari 6+ */
+			image-rendering: auto
+			transition: 0.3s
+			-webkit-transition: 0.3s
+			-moz-transition: 0.3s
+			-o-transition: 0.3s
+
+	#logotipos, #identidade-completa
+		display: none
+
+#fancybox-thumbs
+	left: 50%!important
+	margin-left: -324px!important
+
+
+#oque-fazemos
+	width: 100%
+	height: 797px
+	float: left
+	background: url("../../imagens/bg-oque-fazemos.jpg") no-repeat top center
+
+	#box-principal
+		width: 1100px
+		height: 589px
+		float: left
+
+		.box-1
+			height: 589px
+
+		.box-2, .box-3, .box-4
+			display: none
+
+		.box-1, .box-2, .box-3, .box-4
+			width: 1100px
+			position: absolute
+
+	.ico-menu
+		width: 329px
+		margin: 0 auto
+		margin-top: 30px
+		display: none
+
+		li
+			float: left
+			padding: 10px
+
+	.box-img
+		width: 796px
+		margin: 0 auto
+		margin-top: 85px
+
+		li
+			float: left
+			width: 262px
+			float: left
+			
+		.text
+			text-align: center
+			font-family: 'ubunturegular'
+			font-size: 20px
+			color: #555454
+			margin-top: 15px
+
+#frase
+	width: 100%
+	height: 326px
+	float: left
+	background: url("../../imagens/bg-frase.jpg") no-repeat top center
+
+#planos
+	width: 100%
+	height: 756px
+	float: left
+	background: #e4e4e4
+
+	.box-planos
+		height: 583px
+		display: none
+
+	.plano-1, .plano-2, .plano-3, .plano-4, .plano-5, .plano-6
+		position: absolute
+		display: none
+
+	.icons-planos
+		width: 290px
+		margin: 0 auto
+
+	.clique
+		width: 100%
+		float: left
+		text-align: center
+		font-family: 'ubunturegular'
+		font-size: 13px
+		color: #555454
+		line-height: 25px
+		margin-top: 30px
+
+#sedes
+	width: 100%
+	height: 767px
+	float: left
+	background: url("../../imagens/bg-sedes.jpg") no-repeat top center
+
+#contato
+	width: 100%
+	height: 1377px
+	float: left
+	background: url("../../imagens/bg-contato.jpg") no-repeat top center
+
+	.icon-ola
+		width: 100%
+		height: 125px
+		float: left
+		text-align: center
+		margin-top: 138px
+		margin-bottom: 40px
+
+	.box-contatos
+		width: 640px
+		height: auto
+		margin: 0 auto
+		margin-top: 80px
+
+		li
+			float: left
+			text-align: center
+			margin-left: 54px
+
+			.cidade
+				font-family: 'ubuntubold'
+				font-size: 18px
+				color: #e30917
+				margin-top: 15px
+			.tel
+				font-family: 'ubuntubold'
+				font-size: 18px
+				color: #595858
+				margin-top: 10px
+			.info-contato
+				font-family: 'ubuntulight'
+				font-size: 15px
+				color: #595858
+				line-height: 20px
+				margin-top: 10px
+
+				a
+					color: #595858
+
+		.primeira-li
+			margin-left: 0px
+
+	.barra-contato
+		width: 100%
+		float: left
+		text-align: center
+		margin-top: 50px
+
+	.box-img
+		width: 866px
+		height: auto
+		margin: 0 auto
+
+		img
+			position: absolute
+			cursor: pointer
+
+		ul
+			float: left
+			margin-top: 40px
+
+			li
+				width: 275px
+				height: 278px
+				float: left
+				margin-left: 20px
+				background: #dddcdc
+
+				input[type="text"], textarea, select
+					width: 245px
+					height: 39px
+					float: left
+					border: 0
+					background: #ebebeb
+					margin: 8px 0 0 15px
+					padding-left: 10px
+					font-family: 'ubuntumedium'
+					font-size: 15px
+					color: #a79f9f
+
+				textarea
+					width: 245px
+					height: 94px
+					max-width: 245px
+					max-height: 94px
+					padding-top: 10px
+
+				input[type="submit"], input[type="button"]
+					width: 71px
+					height: 22px
+					float: right
+					background: #ebebeb
+					font-family: 'ubuntumedium'
+					font-size: 15px
+					color: #a79f9f
+					border: 0
+					margin: 5px 15px 0 0
+					cursor: pointer
+
+			.form-entre-em-contato, .form-entre-em-contato-2
+				display: none
+
+			.primeira-li
+				margin-left: 0
+
+	.logo-contato
+		width: 100%
+		float: left
+		text-align: center
+		margin-top: 30px

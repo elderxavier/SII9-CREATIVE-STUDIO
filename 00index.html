@@ -1,0 +1,412 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="css/stylesheets/screen.css">
+  <link rel="stylesheet" href="css/stylesheets/stylesheet.css">
+
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/functions.js"></script>
+
+  <script src="js/jquery-latest.min.js"></script>
+  <link type="text/css" rel="Stylesheet" href="css/stylesheets/bjqs.css" />
+
+  <!-- Include the plugin *after* the jQuery library -->
+  <script src="js/bjqs-1.3.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function($) {
+        $('#my-slideshow').bjqs({
+            'height' : 772,
+            'width' : "100%",
+            showcontrols : true,
+            centercontrols : false,
+            showmarkers : false,
+            animduration : 450,
+            animspeed : 3000,
+            nexttext : '', // Text for 'next' button (can use HTML)
+            prevtext : '' // Text for 'previous' button (can use HTML)
+        });
+    });
+  </script>
+
+  <!-- Add fancyBox main JS and CSS files -->
+  <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="js/jquery.fancybox.css?v=2.1.5" media="screen" />
+  <!-- Add Thumbnail helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="js/jquery.fancybox-thumbs.css?v=1.0.7" />
+  <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+  <script type="text/javascript">
+      //<![CDATA[
+          $(window).load(function() { // makes sure the whole site is loaded
+              $("#status").fadeOut(); // will first fade out the loading animation
+              $("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+          })
+      //]]>
+  </script>
+
+
+	<title>Sii9 - Creative Studio</title>
+</head>
+<body>
+  <div id="preloader">
+      <div id="status"></div>
+  </div>
+  <!-- topo -->
+  <div id="topo">
+    <div class="alinhamento">
+      <a href="#slide-topo" class="logo-topo"></a>
+      <div id="menu">
+        <ul>
+          <a href="#studio"><li>O ESTÚDIO</li></a>
+          <a href="#criacao"><li>CRIAÇÕES</li></a>
+          <a href="#oque-fazemos"><li>O QUE FAZEMOS</li></a>
+          <a href="#planos"><li>PLANOS</li></a>
+          <a href="#sedes"><li>SEDE</li></a>
+          <a href="#contato"><li class="ultima-li">CONTATO</li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- slide topo -->
+  <div id="slide-topo">
+    <div id="my-slideshow">
+      <ul class="bjqs">
+        <li><div class="slide-4"></div></li>
+        <li><a href="#planos"><div class="slide-3"></div></a></li>
+        <li><div class="slide-2"></div></li>
+        <li><div class="slide-1"></div></li>
+      </ul>
+    </div>
+    
+  </div><!-- final slide topo -->
+
+  <!-- studio -->
+  <div id="studio">
+    <div id="rasgo"></div>
+
+    <div class="alinhamento">
+      <div class="kanji-3d"><img src="imagens/kanji-3d.png"></div>
+
+      <h1>O Estúdio</h1><br/>
+      <h6>Simples... mas <span>sofisticado!</span></h6>
+      <h6>Soluções de grande impacto, <span>criamos o inimaginável</span></h6>
+      <h6>para o sucesso da sua marca.</h6>
+
+      <div class="texto">
+        O objetivo é um só, tornar a comunicação entre o cliente e o leitor tão clara quanto possível. Imaginar de maneira integrada afim de agregar para atender às necessidades de sua empresa. O principal compromisso é a oferta de soluções variadas e diferenciadas, quais valores quer transmitir, qual o seu público-alvo e como gostaria de ser vista. 
+        <br/><br/>
+        Criatividade e coerência, com método, planejamento e compromisso.
+      </div>
+
+      <h3>Onde tudo se cria e nada se copia!</h3>
+
+      <div class="box-carousel">
+
+        <img src="imagens/area-de-trabalho.png">
+        
+      </div>
+      <div class="kanji-3d-carousel"></div>
+    </div>
+  </div><!-- final studio -->
+
+  <!-- criacao -->
+  <div id="criacao">
+    <div class="alinhamento">
+      <div class="redes-sociais">
+        <a href="#this" target="_blank"><img src="imagens/ico-linkedin.png" title="Linkedin"></a>
+        <a href="https://www.facebook.com/sii9creativestudio" target="_blank"><img src="imagens/ico-facebook.png" title="Facebook"></a>
+        <a href="https://www.youtube.com/channel/UCOK2_VcgnNPW9J_9gMleuDQ" target="_blank"><img src="imagens/ico-youtube.png" title="Youtube"></a>
+        <a href="http://br.pinterest.com/sii9creative/" target="_blank"><img src="imagens/ico-pinterest.png" title="Pinterest"></a>
+        <!--<a href="#this"><img src="imagens/ico-blogger.png" title="Blogger"></a>-->
+      </div>
+
+      <h4>Cases de sucesso</h4>
+      <ul class="menu-case">
+        <li class="ativo" style="margin-right: 10px!important">Ultimas criações</li>
+        <!--<li style="margin-right: 10px!important">Logotipo</li>-->
+        <!--<li style="margin-right: 10px!important">Identidade Completa</li>-->
+      </ul>
+      <div class="cases" id="recentes">
+        <ul>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-1.png" title="Mix Promo"><li><img src="imagens/cases/recentes/case-1.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-2.png" title="Moria Lav"><li><img src="imagens/cases/recentes/case-2.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-3.png" title="Rei das Vendas"><li><img src="imagens/cases/recentes/case-3.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-4.png" title="Sii9 - Creative Studio"><li><img src="imagens/cases/recentes/case-4.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-5.png" title="Tudo em Peças"><li><img src="imagens/cases/recentes/case-5.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-6.png" title="Moria Lav"><li><img src="imagens/cases/recentes/case-6.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-7.png" title="Moria Lav"><li><img src="imagens/cases/recentes/case-7.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-8.png" title="Tudo em Peças"><li><img src="imagens/cases/recentes/case-8.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-9.png" title="V8 Motors"><li><img src="imagens/cases/recentes/case-9.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-10.png" title="Sii9 - Creative Studio"><li><img src="imagens/cases/recentes/case-10.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-11.png" title="Moria Lav"><li><img src="imagens/cases/recentes/case-11.png"></li></a>
+          <a class="fancybox-thumbs" data-fancybox-group="thumb" href="imagens/cases/recentes/case-12.png" title="Mix Promo"><li><img src="imagens/cases/recentes/case-12.png"></li></a>
+        </ul>
+      </div>
+      <!--<div class="cases" id="logotipos">
+        <ul>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-1.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-1.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-2.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-2.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-3.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-3.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-4.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-4.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-5.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-5.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-6.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-6.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-7.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-7.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-8.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-8.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-9.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-9.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-10.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-10.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-11.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-11.png"></li></a>
+          <a class="fancybox-thumbs-2" data-fancybox-group="thumb" href="imagens/cases/logotipos/case-12.png" title="Titulo"><li><img src="imagens/cases/logotipos/case-12.png"></li></a>
+        </ul>
+      </div>
+      <div class="cases" id="identidade-completa">
+        <ul>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-1.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-1.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-2.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-2.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-3.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-3.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-4.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-4.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-5.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-5.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-6.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-6.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-7.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-7.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-8.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-8.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-9.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-9.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-10.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-10.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-11.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-11.png"></li></a>
+          <a class="fancybox-thumbs-3" data-fancybox-group="thumb" href="imagens/cases/identidade-completa/case-12.png" title="Titulo"><li><img src="imagens/cases/identidade-completa/case-12.png"></li></a>
+        </ul>
+      </div>-->
+    </div>
+  </div><!-- final criacao -->
+
+  <!-- oque-fazemos -->
+  <div id="oque-fazemos">
+    <div class="alinhamento">
+      <div id="box-principal">
+        <div class="box-1">
+          <br/><br/><br/><br/><br/>
+          <h1>O que fazemos</h1><br/>
+          <h6>A sii9 sempre prioriza a qualidade e o diferencial dos serviços para nossos clientes. <br/>
+Acreditamos que mais importante do que conquistar uma cartela de clientes , solucionar seus problemas é a nossa maior vitória!  </h6>
+
+          <div class="box-img">
+            <ul>
+              <li><img src="imagens/design-grafico.png"><div class="text link-box-1" style="width:230px">Design Gráfico</div></li>
+              <li><img src="imagens/marketing.png"><div class="text" style="width:245px">Marketing</div></li>
+              <li><img src="imagens/webdesign.png"><div class="text" style="width:290px">Web Design</div></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="box-2 box">
+          <img src="imagens/design-grafico-conteudo.png">
+        </div>
+
+        <div class="box-3 box">
+          <img src="imagens/marketing-conteudo.png">
+        </div>
+
+        <div class="box-4 box">
+          <img src="imagens/webdesign-conteudo.png">
+        </div>
+      </div>
+      <ul class="ico-menu">
+        <li><img src="imagens/ico-marketing.png"></li>
+        <li><img src="imagens/ico-design-grafico.png"></li>
+        <li><img src="imagens/ico-webdesign.png"></li>
+      </ul>
+    </div>
+  </div><!-- final oque-fazemos -->
+
+  <!-- frase -->
+  <div id="frase"></div><!-- final frase -->
+
+  <!-- planos -->
+  <div id="planos">
+    <div class="alinhamento">
+      <a href="#form"><div style="width: 70; height: 80px; margin: 442px 0 0 826px;"></div></a>
+    </div>
+  </div><!-- final planos -->
+
+  <!-- sedes -->
+  <div id="sedes">
+    <div class="alinhamento">
+      <a href="http://allanjuniorian.com.br" target="_blank"><div style="width: 180px; height: 30px; float: right; margin: 545px 70px 0 0;"></div></a>
+    </div>
+  </div><!-- final sedes -->
+
+  <!-- contato -->
+  <div id="contato">
+    <div class="alinhamento">
+      <div class="icon-ola"><img src="imagens/ola-contato.png"></div>
+
+      <h5>VAMOS <span>CONVERSAR</span></h5><br/>
+      <h6>Faça uma visita ou entrem em contato, será um prazer atende-lo(a)</h6>
+
+      <div class="box-contatos">
+        <ul>
+          <!--<li class="primeira-li">
+            <img src="imagens/ico-local.png">
+            <div class="cidade">Curitiba</div>
+            <div class="tel">(41) 9543-1110</div>
+            <div class="info-contato">
+              Av. 7 de Setembro Nº 4995<br/>
+              Batel, Curitiba<br/>
+              sii9@sii9.com.br<br/><br/>
+              <a href="https://www.google.com.br/maps/place/Av.+Sete+de+Setembro,+4995+-+Cristo+Rei,+Matriz,+Curitiba+-+PR,+80050-315/@-25.4452427,-49.2862158,17z/data=!3m1!4b1!4m2!3m1!1s0x94dce3887909e585:0x3188789b2da39328?hl=pt-BR" target="_blank">Veja no mapa</a>
+            </div>
+          </li>-->
+          <li style="margin-left: 109px">
+            <img src="imagens/ico-local.png">
+            <div class="cidade">Balneário Camboriú</div>
+            <div class="tel"><img style="padding-top: 5px;" src="imagens/ico-contato.png">(47) 9698-4548  <img style="padding-top: 5px; margin-left: 20px" src="imagens/ico-contato.png">(47) 9681-3968  <img style="padding-top: 5px; margin-left: 20px" src="imagens/ico-contato.png">(47) 9608-8633</div>
+            <div class="info-contato">
+              Rua 1500 Nº 290 Sala 203<br/>
+              Edifício Telma Regina<br/>
+              sii9@sii9.com.br<br/><br/>
+              <a href="https://www.google.com.br/maps/place/Balne%C3%A1rio+Cambori%C3%BA,+SC/@-27.008161,-48.6266309,12z/data=!3m1!4b1!4m2!3m1!1s0x94d8b668abfea471:0x4fca490504a87e6e?hl=pt-BR" target="_blank">Veja no mapa</a>
+            </div>
+          </li>
+          <!--<li>
+            <img src="imagens/ico-local.png">
+            <div class="cidade">Florianópolis</div>
+            <div class="tel">(48) 9656-1954</div>
+            <div class="info-contato">
+              
+            </div>
+          </li>-->
+        </ul>
+      </div>
+
+      <div class="barra-contato"><img src="imagens/barra-contato.png"></div>
+
+      <div class="box-img">
+        <ul id="form">
+          <a href="#this"><li class="primeira-li"><img src="imagens/chat-online.png"></li></a>
+          <li><img class="link-entre-em-contato" src="imagens/entre-em-contato.png">
+            <form action="enviar-contato.php" method="POST" target="iAjax" class="form-entre-em-contato">
+              <input type="text" name="nome" id="nome" placeholder="NOME" />
+              <input type="text" name="email" id="email" placeholder="EMAIL" />
+              <input type="text" name="assunto" id="assunto" placeholder="ASSUNTO" />
+              <textarea name="mensagem" id="mensagem" placeholder="MENSAGEM"></textarea>
+              <input type="submit" value="ENVIAR">
+              <input type="button" value="FECHAR" class="fechar-form">
+            </form>
+          </li>
+          <li class="form-solicite-orcamento">
+            <img class="link-solicite-orcamento" src="imagens/solicite-orcamento.png">
+            <form action="enviar-orcamento.php" method="POST" target="iAjax" class="form-entre-em-contato-2">
+              <input type="text" name="nome" id="nome2" placeholder="NOME" />
+              <input type="text" name="email" id="email2" placeholder="EMAIL" />
+              <select name="servico" id="servico2"><option>SERVIÇO</option><option>DESIGN GRÁFICO</option><option>MARKETING</option><option>WEB DESIGN</option></select>
+              <textarea name="mensagem" id="mensagem2" placeholder="DESCRIÇÃO"></textarea>
+              <input type="submit" value="ENVIAR">
+              <input type="button" value="FECHAR" class="fechar-form-2">
+            </form>
+          </li>
+        </ul>
+        <iframe name="iAjax" style="display: none"></iframe>
+      </div>
+
+      <div class="logo-contato">
+        <img src="imagens/logo-contato.png">
+      </div>
+
+      <div id="footer">
+        <div class="txt">Copyright © 2014 Sii9 - Todos os direito reservados.</div>
+
+        <div class="allanjuniorian">
+          <a href="http://allanjuniorian.com.br" target="_blank"><img src="imagens/allanjuniorian.png"></a>
+        </div>
+      </div>
+
+
+    </div>
+  </div><!-- final contato -->
+
+</body>
+<script type="text/javascript">
+    $(document).ready(function() {
+      
+
+      // Remove padding, set opening and closing animations, close if clicked and disable overlay
+      $(".fancybox-effects-d").fancybox({
+        padding: 0,
+
+        openEffect : 'elastic',
+        openSpeed  : 150,
+
+        closeEffect : 'elastic',
+        closeSpeed  : 150,
+
+        closeClick : true,
+
+        helpers : {
+           title : {
+                  type : 'float'
+              }
+        }
+      });
+
+      
+
+
+      /*
+       *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+       */
+
+      $('.fancybox-thumbs').fancybox({
+        prevEffect : 'none',
+        nextEffect : 'none',
+
+        closeBtn  : false,
+        arrows    : false,
+        nextClick : true,
+
+        helpers : {
+          thumbs : {
+            width  : 50,
+            height : 50
+          }
+        }
+      });
+
+      $('.fancybox-thumbs-2').fancybox({
+        prevEffect : 'none',
+        nextEffect : 'none',
+
+        closeBtn  : false,
+        arrows    : false,
+        nextClick : true,
+
+        helpers : {
+          thumbs : {
+            width  : 50,
+            height : 50
+          }
+        }
+      });
+
+      /*$('.fancybox-thumbs-3').fancybox({
+        prevEffect : 'none',
+        nextEffect : 'none',
+
+        closeBtn  : false,
+        arrows    : false,
+        nextClick : true,
+
+        helpers : {
+          thumbs : {
+            width  : 50,
+            height : 50
+          }
+        }
+      });*/
+
+      
+
+
+    });
+  </script>
+</html>

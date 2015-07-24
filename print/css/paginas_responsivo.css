@@ -1,0 +1,244 @@
+
+
+
+@media (max-width: 1100px) {	
+	#slide-topo #my-slideshow li .slide-1,
+	#slide-topo #my-slideshow li .slide-2,
+	#slide-topo #my-slideshow li .slide-3,
+	#slide-topo #my-slideshow li .slide-4 {
+	  background-size: 181% auto;
+	}
+
+	#slide-topo {
+	  height: 660px;
+	  overflow: hidden;
+	  position: relative;
+	}
+	#studio .kanji-3d {
+	  margin-top: 11px;
+	}
+
+}
+
+@media (max-width: 970px) {
+	#slide-topo {
+	  height: 582px;
+	}
+}
+
+
+
+@media (max-width: 940px) {	
+
+	#topo .logo-topo {
+	  margin-left: 2%;	  
+	}
+	#oque-fazemos #grafico-holder .info, #oque-fazemos #grafico-holder .odesign-kenji {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.feature-carousel-holder {
+	  margin-left: 0;
+	  margin-right: 0;
+	  overflow: hidden;
+	  text-align: center;
+	  width: 100%;
+	}
+	.feature-carousel {
+		display: inline-block;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#oque-fazemos .info {
+	  margin-left: 0;
+	  margin-right: 0;
+	  margin-top: 0;
+	  position: relative;
+	  top: 0;
+	  width: 100%;
+	}
+	#oque-fazemos .info h3 {
+	  text-align: center;
+	}
+	#planos #slider-holder, #contato .icon-ola {
+	  margin-top: 56px;
+	}
+	#contato .box-img ul li {
+	  margin-bottom: 25px;
+	  text-align: center;
+	  width: 100%;
+	}
+	#contato .box-img ul li img {
+		display: inline-block;
+		position: relative;
+
+	}
+
+		
+}
+
+@media (max-width: 860px) {
+	#slide-topo {
+	  height: 512px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	#topo .logo-topo {
+	  margin-left: 2%;
+	  margin-top: 30px;
+	  width: 188px;
+	}
+	#studio {
+	  padding-bottom: 200px;
+	}
+	#studio .kanji-3d img {
+	  margin-top: 30px;
+	}
+	#studio .box-carousel {
+		width: 350px;
+		height: 197px;
+	}
+	#studio .box-carousel img {
+		width: 338px;
+	}
+	
+	#criacao {
+	  padding-bottom: 232px;
+	}
+
+	#topo {
+		margin-top: -27px;
+	}
+	#slide-topo {		
+	  margin-top: 44px;
+	}
+	#slide-topo ul.bjqs-controls {
+		display: none;
+	}
+	#oque-fazemos #grafico-holder .info {
+	  margin-top: -35px;
+	}
+		
+}
+
+@media (max-width: 750px) {	
+	#slide-topo {
+	  height: 449px;
+	}
+}
+
+@media (max-width: 740px) {
+
+
+	#oque-fazemos {
+	  padding-bottom: 50px;
+	}
+	#oque-fazemos #grafico-holder .info, #oque-fazemos .info h3, 
+	#oque-fazemos #grafico-holder .odesign-kenji  {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;		
+		text-align: center;
+	}
+	#oque-fazemos #grafico-holder .odesign-kenji img {
+	  width: 190px;
+	}
+	
+	.feature-carousel {
+	  margin-left: 0;
+	  margin-right: 0;
+	  width: 100%;
+	}
+	
+	#footer .txt, #footer .allanjuniorian {
+	  float: left;
+	  margin-left: 0;
+	  margin-right: 0;
+	  margin-top: 14px;
+	  position: relative;
+	  text-align: center;
+	  width: 100%;
+	}	
+	#footer .txt {
+		margin-top: 94px;
+	}
+}
+
+@media (max-width: 660px) {
+	#slide-topo {
+	  height: 390px;
+	}
+
+}
+@media (max-width: 590px) {
+	#slide-topo {
+	  height: 349px;
+	}
+	#logotipo-holder {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+}
+@media (max-width: 520px) {
+	#slide-topo {
+	  height: 308px;
+	}
+
+}
+
+
+@media (max-width: 480px) {	
+	
+	#topo .logo-topo {
+	  width: 158px;
+	}
+	#studio {
+	  padding-bottom: 160px;
+	}
+	#studio .kanji-3d img {
+	  height: 156px;
+	  margin-top: 30px;
+	}
+	#studio .box-carousel {
+	  height: 145px;
+	  width: 250px;
+	}
+	#studio .box-carousel img {
+		width: 238px;
+	}
+	#studio .kanji-3d-carousel {
+	  height: 82px;
+	  margin-top: -40px;
+	  width: 90px;
+	}
+	#criacao {
+	  padding-bottom: 180px;
+	}
+
+	.contato-main h5 {
+	  font-size: 37px;
+	}
+
+}
+
+
+@media (max-width: 470px) {
+	#slide-topo {
+	  height: 275px;
+	}
+}
+@media (max-width: 410px) {
+	#slide-topo {
+	  height: 240px;
+	}
+}
+@media (max-width: 370px) {
+	#slide-topo {
+	  height: 220px;
+	}
+}
