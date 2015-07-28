@@ -135,7 +135,7 @@
   #kanji-menu span {
     background: url('../imagens/kanji.png')no-repeat;
     position: absolute;         
-      text-indent: -999;  
+      text-indent: -999px;  
       cursor: pointer;
       width: 60px;
       width: 55px;
@@ -166,7 +166,7 @@
 #top-logos-ul li {
   float: left;
   padding-right: 10px;
-  text-indent: -9999;
+  text-indent: -9999px;
   height: 30px;
   width: 40px;
   border-right: 1px solid #c6c6c6;
